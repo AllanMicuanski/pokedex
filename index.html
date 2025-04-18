@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pokédex</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="./pokeball.png" type="pokebola" />
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <h1>Pokédex Interativa</h1>
+
+  <form id="search-form">
+    <input type="text" id="pokemon-input" list="pokemon-list" placeholder="Digite o nome ou numero" required>
+    <button type="submit">Buscar</button>
+    <button type="button" id="refresh-btn">Limpar</button>
+    <small>Digite o nome ou número do Pokémon (ex: pikachu, 1, charmander)</small>
+    <datalist id="pokemon-list"></datalist>
+  </form>
+
+  <div id="pokemon-container"></div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

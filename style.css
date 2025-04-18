@@ -1,0 +1,77 @@
+body {
+  font-family: 'Orbitron', sans-serif;
+  background: linear-gradient(to bottom right, #ff1e56, #ffac41);
+  min-height: 100vh;
+  margin: 0;
+  padding: 20px;
+  color: #fff;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+input, button {
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  font-size: 16px;
+}
+
+input {
+  width: 17%;
+}
+
+button {
+  background-color: #ff1e56;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #e6004c;
+}
+
+#refresh-btn {
+  background-color: #ffac41;
+  color: #fff;
+}
+
+#refresh-btn:hover {
+  background-color: #e6952f;
+}
+
+small {
+  display: block;
+  width: 100%;
+  margin-top: 10px;
+  font-size: 14px;
+  color: #fff;
+}
+
+.card {
+  border-radius: 12px;
+  padding: 15px;
+  margin: 15px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+  width: 250px;
+  color: white;
+  background-color: #444;
+  text-align: center;
+}
+
+.card img {
+  width: 120px;
+  height: auto;
+}
+
+#pokemon-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
